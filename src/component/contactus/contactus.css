@@ -1,0 +1,88 @@
+.column-form {
+  margin: 3rem auto;
+  margin-top: 4rem;
+  display: block;
+  padding: 2rem;
+}
+.column-form__container {
+  background-color: white;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: .5rem;
+  line-height: 5rem;
+}
+
+.separator {
+  height: 0.2rem;
+  width: 40%;
+  margin: 1.5rem auto;
+  background: linear-gradient(90deg, #2561a2 0%, #52bdf7 100%);
+}
+.left-align {
+  text-align: left;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.column-form {
+  margin: 1.5rem auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+.column-form {
+  margin: 2.2rem auto;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+.column-form {
+  margin: 2.5rem auto;
+  margin-top: 2.2rem;
+  padding: 2rem;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.column-form {
+  margin: 1.5rem auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.column-form {
+  margin: 1.5rem auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  }
+}

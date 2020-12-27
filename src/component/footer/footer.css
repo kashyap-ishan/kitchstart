@@ -1,0 +1,137 @@
+.app-footer {
+  /* background-color: rgba(0,0,0,0.8) !important; */
+  border-top: 1px solid black;
+  box-shadow: 6px 0 0 0 #00000029;
+  z-index: 99;
+  padding: 2rem 1rem;
+  line-height: 1.2rem;
+  color: black;
+}
+
+.footer-header {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+}
+
+.footer-content {
+  font-size: 1rem;
+  padding-left: 3rem;
+  line-height: 1.525em;
+  overflow-wrap: break-word;
+  text-align: justify;
+  width: 60%;
+  font-weight: 500;
+}
+
+.footer-contacts {
+  font-size: 1.3rem;
+  line-height: 1.525em;
+  font-weight: 300;
+}
+
+.footer-contacts>a {
+  color: #181818;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  margin: 0;
+  transition: color 200ms cubic-bezier(.25, .46, .45, .94);
+}
+
+html:not(.mobile) .footer-contacts>a:hover {
+  color: #a5a5a5;
+  transition: color 150ms cubic-bezier(.25, .46, .45, .94);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .app-footer {
+    padding: 2rem 0rem;
+    line-height: 0.8rem;
+  }
+
+  .footer-header {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+
+  }
+
+  .footer-contacts {
+    font-size: 1rem;
+    line-height: 1em;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .app-footer button {
+    padding: 0.5rem 0rem;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* Styles */
+  .primary {
+    height: 1200px;
+  }
+
+  .title-heading {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+  /* Styles */
+  .primary {
+    height: 1200px;
+  }
+
+  .title-heading {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  /* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+  /* Styles */
+
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+
+  /* Styles */
+  .primary {
+    height: 1200px;
+  }
+
+  .title-heading {
+    font-size: 1.5rem;
+    margin: 1rem auto;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+
+}
